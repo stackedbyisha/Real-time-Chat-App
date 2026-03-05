@@ -12,7 +12,7 @@ function MessageInput() {
   const { sendMessage, isSoundEnabled } = useChatStore();
 
   const handleSendMessage = (e) => {
-     e.preventDefault();
+    e.preventDefault();
     if (!text.trim() && !imagePreview) return;
     if (isSoundEnabled) playRandomKeyStrokeSound();
 
@@ -25,7 +25,7 @@ function MessageInput() {
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
-   const handleImageChange = (e) => {
+  const handleImageChange = (e) => {
     const file = e.target.files[0];
     if (!file.type.startsWith("image/")) {
       toast.error("Please select an image file");
@@ -37,7 +37,7 @@ function MessageInput() {
     reader.readAsDataURL(file);
   };
 
-    const removeImage = () => {
+  const removeImage = () => {
     setImagePreview(null);
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
@@ -57,7 +57,7 @@ function MessageInput() {
               className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-slate-200 hover:bg-slate-700"
               type="button"
             >
-            <XIcon className="w-4 h-4" />
+              <XIcon className="w-4 h-4" />
             </button>
           </div>
         </div>
@@ -86,9 +86,8 @@ function MessageInput() {
         <button
           type="button"
           onClick={() => fileInputRef.current?.click()}
-          className={`bg-slate-800/50 text-slate-400 hover:text-slate-200 rounded-lg px-4 transition-colors ${
-            imagePreview ? "text-cyan-500" : ""
-          }`}
+          className={`bg-slate-800/50 text-slate-400 hover:text-slate-200 rounded-lg px-4 transition-colors ${imagePreview ? "text-cyan-500" : ""
+            }`}
         >
           <ImageIcon className="w-5 h-5" />
         </button>
