@@ -3,7 +3,7 @@
 Synqora is a full-stack real-time chat application designed to deliver fast, secure, and seamless communication. It uses modern web technologies to provide instant messaging, authentication, and a smooth user experience. The project demonstrates real-world implementation of scalable architecture, real-time communication, and secure backend systems.
 
 
-Screenshot
+📸 Screenshot 
 
 ![image alt](https://github.com/stackedbyisha/Real-time-Chat-App/blob/20bfdafad2c8c766710778ed381efb5673ff9667/screenshot-Synqora%20Application.png)
 
@@ -40,14 +40,19 @@ Screenshot
 Frontend:
 
 React.js
+
 Tailwind CSS
+
 DaisyUI
+
 Zustand
 
 Backend:
 
 Node.js
+
 Express.js
+
 Socket.io
 
 Database:
