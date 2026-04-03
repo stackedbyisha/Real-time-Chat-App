@@ -37,33 +37,33 @@ Synqora is a full-stack real-time chat application designed to deliver fast, sec
 
 🛠️ Tech Stack
 
-Frontend:
+↗️Frontend:
 
-React.js
+-React.js
 
-Tailwind CSS
+-Tailwind CSS
 
-DaisyUI
+-DaisyUI
 
-Zustand
+-Zustand
 
-Backend:
+↗️Backend:
 
-Node.js
+-Node.js
 
-Express.js
+-Express.js
 
-Socket.io
+-Socket.io
 
-Database:
+↗️Database:
 
-MongoDB
+-MongoDB
 
-Other Tools:
+⚙️Other Tools:
 
-Cloudinary (image uploads)
+-Cloudinary (image uploads)
 
-JWT (authentication)
+-JWT (authentication)
 
 🎯 Objective
 
