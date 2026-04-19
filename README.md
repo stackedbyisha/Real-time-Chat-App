@@ -1,4 +1,4 @@
-                                              Sqnqora - Chat Application
+                                              Sqnqora - Real Time Chat Application
 
 Synqora is a full-stack real-time chat application designed to deliver fast, secure, and seamless communication. It uses modern web technologies to provide instant messaging, authentication, and a smooth user experience. The project demonstrates real-world implementation of scalable architecture, real-time communication, and secure backend systems.
 
