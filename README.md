@@ -5,7 +5,7 @@ Synqora is a full-stack real-time chat application designed to deliver fast, sec
 
 📸 Screenshot 
 
-![image alt](https://github.com/stackedbyisha/Real-time-Chat-App/blob/20bfdafad2c8c766710778ed381efb5673ff9667/screenshot-Synqora%20Application.png)
+![image alt](https://github.com/stackedbyisha/Real-time-Chat-App/blob/755534c2d067123a122caebd33120b78532622ca/frontend/public/ScreenShot.png)
 
 
 ✨ Features
